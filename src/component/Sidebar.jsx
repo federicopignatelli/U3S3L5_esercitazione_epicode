@@ -27,14 +27,14 @@ const Sidebar = () => {
                         <Nav className="navbar-nav">
                             <ul>
                                 <li>
-                                    <p className="nav-item nav-link d-flex align-items-center text-white" href="#">
+                                    <a className="nav-item nav-link d-flex align-items-center">
                                         <i className="bi bi-house-door-fill"></i>&nbsp; Home
-                                    </p>
+                                    </a>
                                 </li>
                                 <li>
-                                    <p className="nav-item nav-link d-flex align-items-center text-white" href="#">
+                                    <a className="nav-item nav-link d-flex align-items-center">
                                         <i className="bi bi-book-fill"></i>&nbsp; Your Library
-                                    </p>
+                                    </a>
                                 </li>
                                 <li>
                                     <form className="input-group mt-3" onSubmit={search}>
@@ -64,8 +64,7 @@ const Sidebar = () => {
                     <Button variant="secondary" className="login-btn" type="button">
                         Login
                     </Button>
-                    <p className="text-white">Cookie Policy</p> |
-                    <p className="text-white"> Privacy</p>
+                    <p className="text-white">Cookie Policy | Privacy</p>
                 </div>
             </Navbar>
         </div>
